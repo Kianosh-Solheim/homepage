@@ -31,5 +31,9 @@ The `build` script uses [esbuild](https://esbuild.github.io/) to bundle `App.js`
 4. Add `solheim.online` as the custom domain in the same Pages settings. GitHub will automatically create the `CNAME` file if it does not exist.
 5. Update your DNS provider to point the domain to GitHub Pages by adding A records for `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`.
 6. Optionally, enable the included GitHub Actions workflow to automatically build and deploy the site to the `gh-pages` branch whenever you push to `main`.
+3. In the repository Settings > Pages, choose the `main` branch (root) as the source and save.
+4. Add `solheim.online` as the custom domain in the same Pages settings. GitHub will automatically create the `CNAME` file if it does not exist.
+5. Update your DNS provider to point the domain to GitHub Pages by adding A records for `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`.
+6. Optionally, enable the included GitHub Actions workflow to automatically build and deploy the site whenever you push to `main`.
 
 After DNS changes propagate, visiting [https://solheim.online](https://solheim.online) should load the site.
