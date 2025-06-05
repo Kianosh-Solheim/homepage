@@ -1,10 +1,10 @@
 /* global grecaptcha */
-import React, { useState, useEffect, useCallback, createContext, useContext, useRef } from 'react';
-import { HashRouter as Router, Routes, Route, Link, useNavigate, Navigate, useLocation } from 'react-router-dom';
-import { getFirestore, collection, addDoc, deleteDoc, doc, updateDoc, onSnapshot, setDoc, getDoc } from 'firebase/firestore';
-import { initializeApp } from 'firebase/app';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, signInAnonymously, signInWithCustomToken } from 'firebase/auth';
-import { getAnalytics } from "firebase/analytics";
+import React, { useState, useEffect, useCallback, createContext, useContext, useRef } from "https://cdn.skypack.dev/react";
+import { HashRouter as Router, Routes, Route, Link, useNavigate, Navigate, useLocation } from "https://cdn.skypack.dev/react-router-dom";
+import { getFirestore, collection, addDoc, deleteDoc, doc, updateDoc, onSnapshot, setDoc, getDoc } from "https://cdn.skypack.dev/firebase/firestore";
+import { initializeApp } from "https://cdn.skypack.dev/firebase/app";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, signInAnonymously, signInWithCustomToken } from "https://cdn.skypack.dev/firebase/auth";
+import { getAnalytics } from "https://cdn.skypack.dev/firebase/analytics";
 
 // Firebase configuration - This will be the single source of truth for Firebase config
 const firebaseConfig = {
