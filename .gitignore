@@ -1,3 +1,4 @@
+
 # Node modules
 node_modules/
 
@@ -16,4 +17,6 @@ dist/
 .tmp/
 tmp/
 .cache/
+
+node_modules/
 
